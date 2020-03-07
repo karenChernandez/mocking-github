@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My github</title>
+    <link rel="stylesheet" href="./My github_files/reset.css">
+    <link rel="stylesheet" href="./My github_files/index.css">
+</head>
+<body cz-shortcut-listen="true">
+    <header>
+        <div>
+            <!-- <button class="search-buttom"> Search or jump to...</button> -->
+            <ul>
+                <img class="githublogo" src="./My github_files/githubLogo.png" alt="githublogo">
+                <button class="search-buttom"> Search or jump to...</button>
+                <li><a class="header-options" href="http://127.0.0.1:5500/index.html#">Pull request</a></li>
+                <li><a class="header-options" href="http://127.0.0.1:5500/index.html#">Issues</a></li>
+                <li><a class="header-options" href="http://127.0.0.1:5500/index.html#">Marketplace</a></li>
+                <li><a class="header-options" href="http://127.0.0.1:5500/index.html#">Explore</a></li>
+            </ul>
+            <ul>
+                <li>🔔</li>
+                <li class="plusSign"> + </li>
+                
+                    <img class="tinyFrame" src="./My github_files/29532025.jpeg" alt="">
+                
+            </ul>
+
+
+    </div>
+    </header>
+<div class="right">
+    <div class="positionHeader">
+        <img class="profilePic" src="./My github_files/29532025.jpeg" alt="">
+        <div class="status">😃 Set status</div>
+        <div class="my-name">KarenChernandez</div>
+        <button class="profileButton">Edit profile</button>
+
+    </div>
+</div>
+
+<div class="left">
+    <div class="optionLinks">
+        <ul class="optionList">
+            <li><a href="http://127.0.0.1:5500/index.html#">Overview</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Repositories</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Projects</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Packages</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Stars</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Followers</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Following</a></li>
+        </ul>
+    </div>
+    <div>
+        <h1>Popular repositories</h1>
+        <div class="CV"></div>
+        <div class="github=demo"></div>
+        <div class="github-into"></div>
+        <div class="demo1"></div>
+        <div class="github1"></div>
+        <div class="my-first-repository"></div>
+        
+    </div>
+</div>
+    <script src="./My github_files/index.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
